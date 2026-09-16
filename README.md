@@ -5,6 +5,7 @@ Systems Administrator career.
 
 ## About me
 Name: Bradley Wilson
+
 Aspiring systems administrator building skills in hardware, operating
 systems, networking, and automation. Currently studying for CompTIA A+.
 
