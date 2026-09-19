@@ -19,3 +19,10 @@ systems, networking, and automation. Currently studying for CompTIA A+.
 ## Progress log
 - Lesson 1: Identified system hardware using Task Manager
 - Lesson 2: Investigated RAM configuration, motherboard, and virtual memory
+- Lesson 3: CPUs, Motherboards, Power Supplies
+
+## Research Notes
+- Socket: FCLGA1151
+- TDP: 91 W
+- Max Memory Supported: 64 GB
+- Based off of the CPU, GPU, RAM, and HDD, the recommended wattage is 393 W
