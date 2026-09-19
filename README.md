@@ -19,7 +19,7 @@ systems, networking, and automation. Currently studying for CompTIA A+.
 ## Progress log
 - Lesson 1: Identified system hardware using Task Manager
 - Lesson 2: Investigated RAM configuration, motherboard, and virtual memory
-- Lesson 3: CPUs, Motherboards, Power Supplies
+- Lesson 3: Researched CPU, motherboard, and power supply compatibility using vendor documentation
 
 ## Research notes
 
