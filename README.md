@@ -21,11 +21,12 @@ systems, networking, and automation. Currently studying for CompTIA A+.
 - Lesson 2: Investigated RAM configuration, motherboard, and virtual memory
 - Lesson 3: Researched CPU, motherboard, and power supply compatibility using vendor documentation
 - Lesson 4: Inventoried motherboard and graphics card ports and verified the active display adapter in Windows
+- Lesson 5: Simulated an offline network printer using an unreachable IP address. Print jobs queued with errors. Cleared the queue and restarted the Print Spooler service. 
 
 ## Research notes
 
-### Port Inventory (Lesson 4)
-Goal: determine the ports of both motherboard and graphics card.
+### Laptop, Mobile devices, and Printer troubleshooting (Lesson 5)
+Goal: determine the cause of various issues across different platforms.
 
 **CPU (source: Intel ARK)**
 - Socket: FCLGA1151, TDP: 91 W
