@@ -20,12 +20,12 @@ systems, networking, and automation. Currently studying for CompTIA A+.
 - Lesson 1: Identified system hardware using Task Manager
 - Lesson 2: Investigated RAM configuration, motherboard, and virtual memory
 - Lesson 3: Researched CPU, motherboard, and power supply compatibility using vendor documentation
-- Lesson 4: Determined both the motherboard's and graphics card's ports
+- Lesson 4: Inventoried motherboard and graphics card ports and verified the active display adapter in Windows
 
 ## Research notes
 
-### System research (Lesson 3)
-Goal: determine upgrade options and power requirements for the lab PC.
+### Port Inventory (Lesson 4)
+Goal: determine the ports of both motherboard and graphics card.
 
 **CPU (source: Intel ARK)**
 - Socket: FCLGA1151, TDP: 91 W
@@ -52,6 +52,6 @@ Goal: determine upgrade options and power requirements for the lab PC.
 **Port Inventory**
 - Motherboard: Two USB 2.0, PS/2 Combo, DVI, SuperSpeed (SS) USB 3.0/3.1, HDMI,
   Two USB 3.0/3.1, Ethernet,  Two USB 3.0/3.1, Audio jacks
-- Graphics Card: Display, DVI-D, HDMI, DVI-I
+- Graphics Card: DisplayPort, DVI-D, HDMI, DVI-I
 - The current monitor is using the display port on the NVIDIA GeForce GTX 750 Ti.
 - The current resolution is 1600x900, and has a refresh rate of 59.978 Hz.
