@@ -50,9 +50,9 @@ Goal: determine the cause of various issues across different platforms.
 1. SSD (SATA or NVMe): largest real-world speed improvement over the 7200 RPM HDD
 2. RAM to 16 GB: needed to run multiple VMs at once
 
-###Port Inventory
+### Port Inventory
 - Motherboard: Two USB 2.0, PS/2 Combo, DVI, SuperSpeed (SS) USB 3.0/3.1, HDMI,
-  Two USB 3.0/3.1, Ethernet,  Two USB 3.0/3.1, Audio jacks
+Two USB 3.0/3.1, Ethernet,  Two USB 3.0/3.1, Audio jacks
 - Graphics Card: DisplayPort, DVI-D, HDMI, DVI-I
-- The current monitor is using the displayport on the NVIDIA GeForce GTX 750 Ti.
+- The current monitor is using the DisplayPort on the NVIDIA GeForce GTX 750 Ti.
 - The current resolution is 1600x900, and has a refresh rate of 59.978 Hz.
