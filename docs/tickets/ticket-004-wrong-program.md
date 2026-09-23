@@ -13,11 +13,12 @@ A test text file was created on windows desktop. Chose to open file with 'WordPa
 
 ## Troubleshooting steps
 1. Verified what program the text file runs in by double clicking the text file to open it. 
-2. Opened Settings > Apps > Default Apps
-3. Clicked 'Choose default apps by file type', and scrolled down to .txt
+2. Opened Settings > Apps > Default Apps ![Settings then Apps](../images/ticket-004-apps.png)
+![Then default apps](../images/ticket-004-default-apps.png)
+3. Clicked 'Choose default apps by file type', and scrolled down to .txt ![choose default by type](../images/ticket-004-default-by-type.png)
 4. WordPad is set as default app for .txt files
 5. Clicked WordPad, this opened up a list of apps to choose from. 
-6. Chose Notepad as the default app for .txt files. 
+6. Chose Notepad as the default app for .txt files. ![Choose new default app](../images/ticket-004-default-txt.png)
 
 ## Root cause
 The default program had been changed for a single .txt file, this caused the chosen program to now be the default for all .txt files. 
