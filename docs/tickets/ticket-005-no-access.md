@@ -6,7 +6,7 @@
 **Environment:** Windows 10 Home, local workstation
 
 ## Reported issue
-When attempting to save a file to the folder 'C:\TestFolder', user is denied the ability to save to that folder. Error message claims user does not have the permission needed to perfrom action. 
+When attempting to save a file to the folder 'C:\TestFolder', user is denied the ability to save to that folder. Error message claims user does not have the permission needed to perform action. 
 
 ## Environment setup
 Created a folder and saved a .txt file within. Then changed the Users permissions of the folder to deny on 'Write' action. Created a second .txt file to save to same folder and was denied ability to do so.    
@@ -14,11 +14,12 @@ Created a folder and saved a .txt file within. Then changed the Users permission
 ## Troubleshooting steps
 1. Tried creating a new file and saving to the folder: 'C:\TestFolder'
 2. Right-clicked on folder and chose Properties
-3. Choose the Security Tab ![Security tab in properties](../images/ticket-005-edit-security.png)
-4. Be sure to select 'Users' under Group or user names
-5. In the permissions for Users area, check for the action 'Write' and determine if Allow or Deny is selected. 
-6. Deny was checked, so click on Edit. 
-7. Again, be sure to select 'Users' under Group or user names. Then beside the 'Write' action, check the Allow box. ![Choose allow box](../images/ticket-005-users-allow.png)
+3. Chose the Security Tab ![Security tab in properties](../images/ticket-005-edit-security.png)
+4. Selected 'Users' under Group or user names
+5. Found Deny checked for the Write Permission
+6. Deny was checked, clicked on Edit. 
+7. Selected 'Users' under Group or user names. Then beside the 'Write' action, uncheck the Deny box. ![Uncheck deny box](../images/ticket-005-users-allow.png)
+8. Confirmed the Deny checkbox was cleared, then verified the permission changed by creating a new .txt file and saving it into 'C:\TestFolder' without getting any permission denied error.
 
 ## Root cause
 The permission of the 'C:\TestFolder' for the 'Write' action had been selected to Deny for the Users group. 
@@ -30,7 +31,7 @@ Went into 'C:\TestFolder' > Properties > Security, and changed the Users group W
 10 min
 
 ## Prevention and user education
-Users can verify the permission by looking into the properties of a folder, simply checking between Allow or Deny can fix a quick permission issue that was caused in error. 
+Users can view a folder's permissions under Properties > Security, but modifying permissions requires administrative rights and should be escalated to IT.
 
 ## Notes
 Deny always overrides Allow, so a single deny entry can block someone even when other permissions grant access.
