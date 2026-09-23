@@ -11,3 +11,11 @@ CompTIA troubleshooting methodology.
 | [003](ticket-003-network-connectivity.md) | No network connectivity | Networking | Resolved |
 | [004](ticket-004-wrong-program.md) | Files opening in the wrong program | OS / applications | Resolved |
 | [005](ticket-005-no-access.md) | Access denied when saving to a folder | Permissions | Resolved | 
+
+These tickets follow the CompTIA troubleshooting methodology:
+- Identify the problem
+- Establish a theory
+- Test the theory
+- Resolve the issue
+- Verify functionality
+- Document findings
