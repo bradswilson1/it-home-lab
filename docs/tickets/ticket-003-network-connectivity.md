@@ -21,6 +21,9 @@ The network was intentionally disabled to simulate a period of no connectivity. 
 ## Root cause
 The network was disabled and unable to connect
 
+## Resolution
+Went into Control Panel > Network and Internet > Network Connections and set Ethernet status to Enable
+
 ## Time to resolve
 15 min
 
