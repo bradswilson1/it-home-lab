@@ -14,9 +14,11 @@ The Windows Audio service was intentionally disabled to provide a scenario of th
 ## Troubleshooting steps
 1. Confirmed speakers were not set to 'mute'
 2. Opened Services > Windows Audio > Properties and confirmed status is not running
+![Status confirmation](../images/ticket-002-windows-audio-service.png)
 3. Right-clicked Windows Audio, clicked properties
 4. Startup type is set to Automatic
 5. Service status is Stopped
+![Properties showing stopped status](../images/ticket-002-service-properties.png)
 6. Clicked Start 
 
 ## Root cause
