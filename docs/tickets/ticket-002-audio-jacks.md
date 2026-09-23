@@ -8,6 +8,9 @@
 ## Reported issue
 Audio not playing from speakers. Only visible message from the application Spotify, just simply says the program can't currently play audio. Speak icon in the taskbar currently has red 'X' displayed, as well as when mouse hovers over icon the message 'The Audio service is not running' appears. 
 
+## Environment setup
+The Windows Audio service was intentionally disabled to provide a scenario of the audio not working as intended. 
+
 ## Troubleshooting steps
 1. Confirmed speakers were not set to 'mute'
 2. Opened Services > Windows Audio > Properties and confirmed status is not running
