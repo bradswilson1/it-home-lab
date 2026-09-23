@@ -19,6 +19,7 @@ A test text file was created on windows desktop. Chose to open file with 'WordPa
 4. WordPad is set as default app for .txt files
 5. Clicked WordPad, this opened up a list of apps to choose from. 
 6. Chose Notepad as the default app for .txt files. ![Choose new default app](../images/ticket-004-default-txt.png)
+7. Verified .txt files were being opened in Notepad by opening a .txt file
 
 ## Root cause
 The default program had been changed for a single .txt file, this caused the chosen program to now be the default for all .txt files. 
@@ -30,8 +31,7 @@ Went into Settings > Apps > Default Apps, changed the default app for .txt files
 10 min
 
 ## Prevention and user education
-Users can try opening with a different program by right-clicking on the file. Then selecting 'Open with', and then selecting the program they want to use. If the file doesn't open properly then the selected program may not be compatible and another program will need to be chosen.
+Users can open a file in a different program without changing the default by right-clicking, choosing Open with, and leaving the 'Always use this app' box unchecked
 
 ## Notes
-When trying to open a file with a specific program using right-click and 'open with', users must be aware that that program will now be the default for opening all files of that type. 
-
+Right-clicking and choosing "Open with" opens a file once in the selected program without changing anything. The default only changes if "Always use this app" is checked in that dialog, which users often select without realizing it applies to every file of that type going forward.
