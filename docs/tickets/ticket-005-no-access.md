@@ -14,11 +14,11 @@ Created a folder and saved a .txt file within. Then changed the Users permission
 ## Troubleshooting steps
 1. Tried creating a new file and saving to the folder: 'C:\TestFolder'
 2. Right-clicked on folder and chose Properties
-3. Choose the Security Tab
+3. Choose the Security Tab ![Security tab in properties](../images/ticket-005-edit-security.png)
 4. Be sure to select 'Users' under Group or user names
 5. In the permissions for Users area, check for the action 'Write' and determine if Allow or Deny is selected. 
 6. Deny was checked, so click on Edit. 
-7. Again, be sure to select 'Users' under Group or user names. Then beside the 'Write' action, check the Allow box.
+7. Again, be sure to select 'Users' under Group or user names. Then beside the 'Write' action, check the Allow box. ![Choose allow box](../images/ticket-005-users-allow.png)
 
 ## Root cause
 The permission of the 'C:\TestFolder' for the 'Write' action had been selected to Deny for the Users group. 
