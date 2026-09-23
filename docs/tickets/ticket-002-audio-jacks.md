@@ -22,6 +22,9 @@ The Windows Audio service was intentionally disabled to provide a scenario of th
 ## Root cause
 The Windows Audio service had been stopped and just needed to be started.
 
+## Resolution
+Within Windows Audio service, changed service status to Start. Made sure startup type was set to Automatic.
+
 ## Time to resolve
 5 minutes
 
