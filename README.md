@@ -19,6 +19,12 @@ systems, networking, and automation. Currently studying for CompTIA A+.
 - Storage: 1 TB HDD (7200 RPM)
 - OS: Windows 10 Home
 
+## Projects
+
+- [Troubleshooting ticket log](docs/tickets/) - five simulated help desk
+  tickets covering printers, services, networking, applications, and
+  permissions
+  
 ## Progress log
 
 - Lesson 1: Identified system hardware using Task Manager
