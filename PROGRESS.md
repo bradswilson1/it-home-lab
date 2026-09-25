@@ -10,10 +10,12 @@
 - Lesson 5: Laptops, mobile devices, and printers
 - Project 1: Troubleshooting ticket log (5 tickets)
 
+**Networking fundamentals**
+- Lesson 6: How data travels between computers
+
 ## In progress
 
 **Networking fundamentals**
-- How data travels between computers
 - Cisco Packet Tracer labs
 
 ## Planned
