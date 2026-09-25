@@ -1,7 +1,7 @@
 # Troubleshooting ticket log
 
-Simulated help desk tickets. Each issue was created diliberatley in a 
-controlled labl enivronment, then diagnosed and resolved using the
+Simulated help desk tickets. Each issue was created deliberately in a 
+controlled lab environment, then diagnosed and resolved using the
 CompTIA troubleshooting methodology.
 
 | ID | Issue | Category | Status |
