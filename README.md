@@ -35,3 +35,9 @@ systems, networking, and automation. Currently studying for CompTIA A+.
   the active display adapter in Windows
 - Lesson 5: Simulated an offline network printer, cleared a stuck print
   queue, and restarted the Print Spooler service
+
+## Sections
+
+- [IT Fundamentals](fundamentals/) - hardware research and port inventory (Lessons 1-5)
+- [Networking](networking/) - network path analysis and Packet Tracer labs (Lesson 6+)
+- [Troubleshooting ticket log](docs/tickets/) - five simulated help desk tickets
