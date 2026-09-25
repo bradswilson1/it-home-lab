@@ -29,6 +29,7 @@ systems, networking, and automation. Currently studying for CompTIA A+.
   the active display adapter in Windows
 - Lesson 5: Simulated an offline network printer, cleared a stuck print
   queue, and restarted the Print Spooler service
+- Lesson 6: Mapped my home network path and built a ping-ladder troubleshooting method
 
 ## Sections
 
